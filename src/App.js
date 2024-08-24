@@ -1,6 +1,7 @@
 import React , {Component} from "react"
 import Table from "./Tabla"
 import Form from "./Form"
+import Api from "./Api"
 
 class App extends Component {
     state = {
@@ -39,7 +40,7 @@ class App extends Component {
   }
 
     render() {
-      const nombre = "coco"
+      // const nombre = "coco"
       const {characters} = this.state
 
       return (
@@ -47,9 +48,11 @@ class App extends Component {
         <>
         <div className="container" >
             <h4>Hello navegante</h4>
-            <p>Incribe la lista de tus colegas a quien le quieres enviar su Gift</p>
+            <p>Sortea entre la lista de tus colegas a quien le quieres enviar una Lyrics como Gift:</p>
             <Table characterData={characters} removeCharacter={this.removeCharacter} />
             <Form handleSubmit={this.handleSubmit}></Form>
+            <div>Sugerencias de wikipedia:</div>
+            <Api></Api>
         </div>
         </>
       )
