@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-colegas/static/css/main.1327b5d0.css",
+    "main.js": "/react-colegas/static/js/main.d1617e1e.js",
+    "index.html": "/react-colegas/index.html",
+    "main.1327b5d0.css.map": "/react-colegas/static/css/main.1327b5d0.css.map",
+    "main.d1617e1e.js.map": "/react-colegas/static/js/main.d1617e1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1327b5d0.css",
+    "static/js/main.d1617e1e.js"
+  ]
+}
